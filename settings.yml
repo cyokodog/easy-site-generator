@@ -1,0 +1,24 @@
+site:
+  siteName: CYOKODOG
+
+doc:
+  indexFile: index.yml
+
+doc_settings:
+  post:
+    themeFilePath: /theme/post.html
+    draftsPath: /drafts/post
+    publicPath: /blog
+
+  post_series:
+    categoryDoc:
+      doc: post
+      key: series
+    themeFilePath: /theme/series.html
+    draftsPath: /drafts/post_series
+    publicPath: /series
+
+  page:
+    themeFilePath: /theme/page.html
+    draftsPath: /drafts/page
+    publicPath: /.

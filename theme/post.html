@@ -1,0 +1,9 @@
+<%- include('_header.html') %>
+
+<h1><a href="<%= doc.url %>"><%= doc.title %></a></h1>
+<ul>
+  <li><a href="<%= doc.seriesUrl %>"><%= doc.seriesTitle %></a></li>
+</ul>
+<%- doc.content %>
+
+<%- include('_footer.html') %>

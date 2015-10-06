@@ -1,0 +1,19 @@
+- file: web-speechi-api.md
+  title: ブラウザのみで音声認識とテキスト読み上げを実現する Web Speech API
+  date: 2015-03-19
+  series: challenge-html5
+
+- file: web-audio-api-music.md
+  title: HTML5 の Web Audio API で音楽してみる
+  date: 2015-02-21
+  series: challenge-html5
+
+- file: jquery-simple-table-filter.md
+  title: jQuery によるシンプルなテーブルフィルタリング処理の実装を考えてみる
+  date: 2013-02-25
+  series: logic-programming
+
+- file: first-post.md
+  title: 引っ越してきました
+  date: 2013-02-25
+  series: info

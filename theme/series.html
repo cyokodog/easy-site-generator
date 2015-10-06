@@ -1,0 +1,10 @@
+<%- include('_header.html') %>
+
+<h1><a href="<%= doc.url %>"><%= doc.title %></a></h1>
+<ul>
+<% doc.refdocs.forEach(function(item){%>
+<li><a href="<%= item.url %>"><%= item.title %></a></li>
+<% }) %>
+</ul>
+
+<%- include('_footer.html') %>

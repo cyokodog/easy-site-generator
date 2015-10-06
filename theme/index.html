@@ -1,0 +1,13 @@
+<%- include('_header.html') %>
+
+<h1><a href="<%= doc.url %>"><%= doc.title %></a></h1>
+<h2>Entries</h2>
+<ul>
+<% post.docs.forEach(function(doc){%>
+<li><a href="<%= doc.url %>"><%= doc.title %></a>（<a href="<%= doc.seriesUrl %>"><%= doc.seriesTitle %></a>）</li>
+<% }) %>
+</ul>
+
+<%- include('_footer.html') %>
+
+
